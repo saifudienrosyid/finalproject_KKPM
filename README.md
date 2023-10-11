@@ -69,6 +69,14 @@ _Follow this step to run our code._
    ```
 4. Set .venv as a kernel to execute the code.
 
+## Classification Algorithm
+In this project, we use the following algorithm for model:
+
+1. Support Vector Machine (SVM) Linear
+2. Gaussian Naive Bayes (GNB)
+3. Ridge Classifier (Ridge): alpha=1.0, solver='auto', random_state=42
+4. Linear Discriminant Analysist (LDA)
+5. Logistic Regression (LR): max_iter=1000, random_state=42
 
 ## Evaluation Metrics
 
@@ -100,37 +108,33 @@ Based on the evaluation metrics, we provide the classification performance resul
 ### 1. Baseline
 |        | SVM         | GNB         | Ridge       | LDA         | LR          |
 |--------|-------------|-------------|-------------|-------------|-------------|
-| Prec   | 0.84 | 0.83 | 0.86 | 0.86 | 0.85 | 
-| Rec    | 0.84 | 0.83 | 0.85 | 0.85 | 0.85 | 
-| F1     | 0.84 | 0.83 | 0.85 | 0.85 | 0.85 | 
+| Prec   | 0.844 | 0.829 | 0.858 | 0.858 | 0.851 | 
+| Rec    | 0.841 | 0.828 | 0.850 | 0.850 | 0.848 | 
+| F1     | 0.841 | 0.828 | 0.849 | 0.849 | 0.847 | 
 ### 2. Baseline with Normalization
 |        | SVM         | GNB         | Ridge       | LDA         | LR          |
 |--------|-------------|-------------|-------------|-------------|-------------|
-| Prec   | 0.84 | 0.83 | 0.86 | 0.86 | 0.85 | 
-| Rec    | 0.84 | 0.83 | 0.85 | 0.85 | 0.85 | 
-| F1     | 0.84 | 0.83 | 0.85 | 0.85 | 0.85 | 
+| Prec   | 0.843 | 0.829 | 0.858 | 0.858 | 0.850 | 
+| Rec    | 0.838 | 0.828 | 0.850 | 0.850 | 0.846 | 
+| F1     | 0.837 | 0.828 | 0.849 | 0.849 | 0.846 | 
 ### 3. Baseline with Normalization and Feature Selection
 |        | SVM         | GNB         | Ridge       | LDA         | LR          |
 |--------|-------------|-------------|-------------|-------------|-------------|
-| Prec   | 0.85 | 0.83 | 0.84 | 0.84 | 0.85 |
-| Rec    | 0.85 | 0.83 | 0.83 | 0.83 | 0.85 |
-| F1     | 0.85 | 0.83 | 0.83 | 0.83 | 0.85 |
+| Prec   | 0.851 | 0.829 | 0.839 | 0.839 | 0.848 |
+| Rec    | 0.847 | 0.827 | 0.831 | 0.831 | 0.846 |
+| F1     | 0.846 | 0.827 | 0.830 | 0.830 | 0.846 |
 ### 4. Baseline with Normalization, Feature Extraction, and Dimensional Reduction.
 |        | SVM         | GNB         | Ridge       | LDA         | LR          |
 |--------|-------------|-------------|-------------|-------------|-------------|
-| Prec   | 0.83 | 0.80 | 0.83 | 0.83 | 0.83 |
-| Rec    | 0.82 | 0.80 | 0.83 | 0.83 | 0.83 |
-| F1     | 0.82 | 0.80 | 0.83 | 0.83 | 0.83 |
+| Prec   | 0.827 | 0.798 | 0.830 | 0.830 | 0.827 |
+| Rec    | 0.824 | 0.798 | 0.827 | 0.827 | 0.826 |
+| F1     | 0.824 | 0.798 | 0.827 | 0.827 | 0.826 |
 
 
 ## Authors
 
   - **Mufti Alfarokhul Azam** - [Email](mailto:muftialfarokhulazam@mail.ugm.ac.id)
   - **Saifudin Rosyid** -  [Email](mailto:saifudinrosyid@mail.ugm.ac.id)
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Acknowledgments
 
