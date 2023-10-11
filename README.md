@@ -112,15 +112,15 @@ Based on the evaluation metrics, we provide the classification performance resul
 ### 3. Baseline with Normalization and Feature Selection
 |        | SVM         | GNB         | Ridge       | LDA         | LR          |
 |--------|-------------|-------------|-------------|-------------|-------------|
-| Prec   | | | | | |
-| Rec    | | | | | |
-| F1     | | | | | |
+| Prec   | 0.85 | 0.83 | 0.84 | 0.84 | 0.85 |
+| Rec    | 0.85 | 0.83 | 0.83 | 0.83 | 0.85 |
+| F1     | 0.85 | 0.83 | 0.83 | 0.83 | 0.85 |
 ### 4. Baseline with Normalization, Feature Extraction, and Dimensional Reduction.
 |        | SVM         | GNB         | Ridge       | LDA         | LR          |
 |--------|-------------|-------------|-------------|-------------|-------------|
-| Prec   | | | | | |
-| Rec    | | | | | |
-| F1     | | | | | |
+| Prec   | 0.83 | 0.80 | 0.83 | 0.83 | 0.83 |
+| Rec    | 0.82 | 0.80 | 0.83 | 0.83 | 0.83 |
+| F1     | 0.82 | 0.80 | 0.83 | 0.83 | 0.83 |
 
 
 ## Authors
