@@ -126,7 +126,7 @@ Based on the evaluation metrics, we provide the classification performance resul
 ## Authors
 
   - **Mufti Alfarokhul Azam** - [Email](mailto:muftialfarokhulazam@mail.ugm.ac.id)
-  - **Syaifudin Rosyid** -  [Email](mailto:saifudinrosyid@mail.ugm.ac.id)
+  - **Saifudin Rosyid** -  [Email](mailto:saifudinrosyid@mail.ugm.ac.id)
 
 ## License
 
