@@ -131,6 +131,14 @@ Based on the evaluation metrics, we provide the classification performance resul
 | F1     | 0.824 | 0.798 | 0.827 | 0.827 | 0.826 |
 
 
+Preprocessing does not always yield poor results. Instead, the model can adapt to different data representations after preprocessing. Additionally, applying preprocessing can reduce the computational burden of the model and decrease the training time.
+
+In certain cases, as seen in the SVM with normalization + feature selection, it performs better than the baseline. This suggests that preprocessing does not always result in decreased performance.
+
+Reducing 9 features to 5 features has a noticeable impact on the model's performance, so the approach to dimensional reduction needs to be reviewed.
+
+A recommendation to consider is to conduct further experiments by applying variations in parameters or data adjustments in the preprocessing steps, such as different feature selection and dimensional reduction techniques. This can help identify if there are better preprocessing combinations to enhance the performance of all models.
+
 ## Authors
 
   - **Mufti Alfarokhul Azam** - [Email](mailto:muftialfarokhulazam@mail.ugm.ac.id)
