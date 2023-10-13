@@ -137,6 +137,7 @@ In certain cases, as seen in the SVM with normalization + feature selection, it 
 
 Reducing 9 features to 5 features has a noticeable impact on the model's performance, so the approach to dimensional reduction needs to be reviewed.
 
+## Conclusion
 A recommendation to consider is to conduct further experiments by applying variations in parameters or data adjustments in the preprocessing steps, such as different feature selection and dimensional reduction techniques. This can help identify if there are better preprocessing combinations to enhance the performance of all models.
 
 ## Authors
